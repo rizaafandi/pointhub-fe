@@ -10,7 +10,11 @@
       </div>
     </div>
 
-    <table style="table-layout: fixed" class="border border-gray-200 mt-2">
+    <table
+      style="table-layout: fixed"
+      class="border border-gray-200 mt-2"
+      v-if="user.username"
+    >
       <tr>
         <th
           class="capitalize bg-gray-200 font-bold text-left px-2 border border-gray-300"

@@ -6,10 +6,17 @@ import { Icon } from "@iconify/vue";
 <template>
   <div class="text-gray-600 flex flex-col">
     <header
-      class="p-2 flex flex-row justify-between items-center border border-gray-200"
+      class="flex flex-row justify-between items-center border border-gray-200"
     >
-      <Icon icon="mdi:image-filter-hdr" class="h-9 w-9" />
-      <div class="flex flex-row gap-2 items-center">
+      <div class="flex flex-row items-center">
+        <div class="bg-gray-600 text-white p-3">
+          <Icon icon="mdi:menu" class="h-9 w-9" />
+        </div>
+        <div class="px-2">
+          <Icon icon="mdi:image-filter-hdr" class="h-9 w-9" />
+        </div>
+      </div>
+      <div class="flex flex-row gap-2 items-center px-2">
         <div class="flex flex-col justify-start">
           <h1 class="text-2xl uppercase">renee mckelvey</h1>
           <span class="text-xl capitalize">account settings</span>
